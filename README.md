@@ -5,6 +5,18 @@ This repository contains two R scripts that simulate the dynamics of the 2025 me
 
 Note: This project was completed as part of a class assignment. Some data (e.g., contact rates, coverage adjustments) was assumed or fabricated for modeling purposes. Results should not be interpreted as published science or official forecasts.
 
+# Outputs
+
+<p align="center">
+  <img src="Plots/MeaslesAllCounties.png" alt="Measles Spread All Counties" width="250"/>
+  <img src="Plots/GainesVaccinationPlot.png" alt="Gaines County Varying Vaccination" width="300"/>
+  <img src="Plots/peak_infectious.png" alt="Peak Infectious in Gaines County" width="350"/>
+</p>
+
+<p align="center">
+  <em>From left to right: infection dynamics across all counties, infections based on varying vaccination coverage in Gaines County, peak number of infections based on varying vaccination coverage in Gaines County.</em>
+</p>
+
 # Project Goals
 
 - Apply mathematical modeling to explore measles transmission dynamics.
