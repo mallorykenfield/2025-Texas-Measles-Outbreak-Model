@@ -19,19 +19,20 @@ Note: This project was completed as part of a class assignment. Some data (e.g.,
 1. MeaslesModel.R
 
   Purpose:
-  Models measles transmission in Gaines County and four neighboring counties (Dawson, Andrews, Terry, and Yoakum). Each county is
-  represented with its own SIR compartments and vaccination coverage. Counties interact via contact rates, simulating cross-county spread.
+    Models measles transmission in Gaines County and four neighboring counties (Dawson, Andrews, Terry, and Yoakum). Each county is
+    represented with its own SIR compartments and vaccination coverage. Counties interact via contact rates, simulating cross-county
+    spread.
 
   Key Features:
   
-  - Uses a system of ODEs to track susceptible, vaccinated, infected, and recovered populations.
+    - Uses a system of ODEs to track susceptible, vaccinated, infected, and recovered populations.
   
-  - Incorporates vaccination efficiency, recovery rate, and county-specific parameters.
+    - Incorporates vaccination efficiency, recovery rate, and county-specific parameters.
   
-  - Produces a line plot of active infections over time by county.
+    - Produces a line plot of active infections over time by county.
   
   Output:
-  Predicts the spread of measles from Gaines County to neighboring counties.
+    Predicts the spread of measles from Gaines County to neighboring counties.
   
 
 2. GainesVaryingVaccinationRates.R
