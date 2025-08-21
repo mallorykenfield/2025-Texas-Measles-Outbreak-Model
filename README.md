@@ -25,11 +25,11 @@ Note: This project was completed as part of a class assignment. Some data (e.g.,
 
   Key Features:
   
-    - Uses a system of ODEs to track susceptible, vaccinated, infected, and recovered populations.
+  - Uses a system of ODEs to track susceptible, vaccinated, infected, and recovered populations.
   
-    - Incorporates vaccination efficiency, recovery rate, and county-specific parameters.
+  - Incorporates vaccination efficiency, recovery rate, and county-specific parameters.
   
-    - Produces a line plot of active infections over time by county.
+  - Produces a line plot of active infections over time by county.
   
   Output:
     Predicts the spread of measles from Gaines County to neighboring counties.
@@ -38,7 +38,7 @@ Note: This project was completed as part of a class assignment. Some data (e.g.,
 2. GainesVaryingVaccinationRates.R
 
   Purpose:
-  Focuses on Gaines County only, testing how varying vaccination coverage (+/– 10% around actual levels) influences outbreak dynamics.
+    Focuses on Gaines County only, testing how varying vaccination coverage (+/– 10% around actual levels) influences outbreak dynamics.
   
   Key Features:
   
@@ -51,7 +51,7 @@ Note: This project was completed as part of a class assignment. Some data (e.g.,
       - Peak Infection Plot: Scatterplot of vaccination coverage vs. peak number of infections.
   
   Output:
-  Visual evidence that small increases in vaccination coverage drastically reduce peak infections.
+    Visual evidence that small increases in vaccination coverage drastically reduce peak infections.
 
 # Methods and Assumptions
 
@@ -61,17 +61,17 @@ ODE Solver: lsoda from the deSolve package.
 
 Parameters:
 
-Transmission rate (β), recovery rate (γ), and vaccination efficiency (e) assumed from literature or set for demonstration.
+  - Transmission rate (β), recovery rate (γ), and vaccination efficiency (e) assumed from literature or set for demonstration.
 
-Contact rates between counties were assumed based on border size for illustrative purposes.
+  - Contact rates between counties were assumed based on border size for illustrative purposes.
 
 # How to Run
 
-- Clone the repository.
+1) Clone the repository.
 
-- Open either script in R or RStudio.
+2) Open either script in R or RStudio.
 
-- Run the full script to generate plots.
+3) Run the full script to generate plots.
 
 # Disclaimer
 
