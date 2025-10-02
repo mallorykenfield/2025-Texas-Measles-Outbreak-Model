@@ -68,6 +68,7 @@ Note: This project was completed as part of a class assignment. Some data (e.g.,
 # Methods and Assumptions
 
 Model Framework: SIR (Susceptible–Infected–Recovered) with an additional vaccinated compartment.
+  - Mathematical model described in Measles_SVIR_Model.pdf
 
 ODE Solver: lsoda from the deSolve package.
 
